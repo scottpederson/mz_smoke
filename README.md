@@ -14,4 +14,5 @@ Protractor end-to-end tests for mz.
 * Lists
 
 
-### Todo #### mz_smoke
+### Todo 
+1. mz_smoke
