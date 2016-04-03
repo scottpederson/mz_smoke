@@ -30,4 +30,8 @@ Temporary Items
 
 creds.js
 
+allure-report
+allure-results
+
+
 node_modules
