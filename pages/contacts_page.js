@@ -9,7 +9,7 @@ var contacts_page = function() {
     };   
     
      this.editName = function() {
-        element(by.linkText('Edit Name')).click(); 
+        element(by.linkText('Edit Individual')).click(); 
     }; 
     
      this.sendEmail = function() {

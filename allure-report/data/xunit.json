@@ -1,0 +1,120 @@
+{
+  "time" : {
+    "start" : 1459657244670,
+    "stop" : 1459657854780,
+    "duration" : 610110
+  },
+  "testSuites" : [ {
+    "uid" : "efc2a968785bc872",
+    "name" : "Lists page...",
+    "title" : "Lists page...",
+    "time" : {
+      "start" : 1459657849424,
+      "stop" : 1459657854780,
+      "duration" : 5356
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "208e53938ab3c222",
+      "name" : "should be able to create a new list",
+      "title" : "should be able to create a new list",
+      "time" : {
+        "start" : 1459657849424,
+        "stop" : 1459657854780,
+        "duration" : 5356
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "db2c99d8f4451a93",
+    "name" : "Contacts page....",
+    "title" : "Contacts page....",
+    "time" : {
+      "start" : 1459657816339,
+      "stop" : 1459657849422,
+      "duration" : 33083
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "19625d8b13243ca0",
+      "name" : "should be able to add individual contact",
+      "title" : "should be able to add individual contact",
+      "time" : {
+        "start" : 1459657816339,
+        "stop" : 1459657840466,
+        "duration" : 24127
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "51ffd9f2fa802be3",
+      "name" : "should be able to edit individual contact",
+      "title" : "should be able to edit individual contact",
+      "time" : {
+        "start" : 1459657840466,
+        "stop" : 1459657849422,
+        "duration" : 8956
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "3c8fe46fa51a471e",
+    "name" : "Login page...",
+    "title" : "Login page...",
+    "time" : {
+      "start" : 1459657244670,
+      "stop" : 1459657816334,
+      "duration" : 571664
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ae1b0e9af405f07d",
+      "name" : "should allow users to login with valid credentials",
+      "title" : "should allow users to login with valid credentials",
+      "time" : {
+        "start" : 1459657244670,
+        "stop" : 1459657258923,
+        "duration" : 14253
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e5614a17e05cc9e7",
+      "name" : "should allow users to login with valid credentials",
+      "title" : "should allow users to login with valid credentials",
+      "time" : {
+        "start" : 1459657786298,
+        "stop" : 1459657816334,
+        "duration" : 30036
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

@@ -27,3 +27,7 @@ protractor-result
 Network Trash Folder
 Temporary Items
 .apdisk
+
+creds.js
+
+node_modules

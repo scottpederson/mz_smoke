@@ -1,0 +1,41 @@
+{
+  "uid" : "e5614a17e05cc9e7",
+  "name" : "should allow users to login with valid credentials",
+  "title" : "should allow users to login with valid credentials",
+  "time" : {
+    "start" : 1459657786298,
+    "stop" : 1459657816334,
+    "duration" : 30036
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+    "stackTrace" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n    at [object Object]._onTimeout (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1812:23)\n    at Timer.listOnTimeout (timers.js:93:15)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3c8fe46fa51a471e",
+    "name" : "Login page...",
+    "title" : "Login page..."
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login page..."
+  }, {
+    "name" : "suite-title",
+    "value" : "Login page..."
+  } ],
+  "parameters" : [ ]
+}

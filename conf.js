@@ -10,6 +10,8 @@ var reporter = new HtmlReporter({
 });
 
 
+
+
 exports.config = {
     // The address of a running selenium server.
     seleniumAddress: 'http://localhost:4444/wd/hub',
@@ -27,9 +29,13 @@ exports.config = {
         lists: './specs/lists_spec.js'
     },
 
-    onPrepare: function() {
-            jasmine.getEnv().addReporter(reporter);
-    },
+
+  onPrepare: function() {
+    var AllureReporter = require('jasmine-allure-reporter');
+    jasmine.getEnv().addReporter(new AllureReporter({
+      resultsDir: './allure-results'
+    }));   
+  },
 
     // Options to be passed to Jasmine-node.
     jasmineNodeOpts: {

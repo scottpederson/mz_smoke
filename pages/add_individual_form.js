@@ -4,9 +4,8 @@ var chance = new Chance();
 var firstName = chance.first();    
     
     this.completeAddIndividualForm = function() {
-        element(by.model('vm.model.FirstName')).sendKeys('Zeke');
+        element(by.model('vm.model.FirstName')).sendKeys('Robot');
         element(by.model('vm.model.LastName')).sendKeys(chance.last());
-        element(by.model('vm.model.CommonName')).sendKeys('Common');
         element(by.name('ContactListValue_0')).sendKeys(chance.email());
         element(by.model('itemAddresses.Address1')).sendKeys(chance.address());
         element(by.model('itemAddresses.City')).sendKeys(chance.city());
